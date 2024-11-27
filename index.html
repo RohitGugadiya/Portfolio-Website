@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <div class="background-image"></div>
+    <div class="nav">
+      <div class="navp">Hello Wold...</div>
+      <div class="btn">
+        <a href="#home" class="button">HOME</a>
+        <a href="#about" class="button">ABOUT</a>
+        <a href="#project" class="button">PROJECT</a>
+        <a href="#contact" class="button">CONTACT</a>
+      </div>
+    </div>
+    <div class="slides">
+      <div class="slide slide1" id="home">
+        <h1 class="heading block">
+          ROHIT<br />
+          GUGADIYA
+        </h1>
+        <img src="Images/Rohit.jpeg" class="rohitimg" />
+
+        <p class="p block">
+          Web developer from Sydney, Australia, with rock-solid expertise in
+          building complex projects with modern technologies. 
+        </p>
+        <div class="box"></div>
+      </div>
+      <div class="slide slide2" id="about">
+        <div class="left-part">
+          <h1 class="abouthead block head-text">ABOUT ME</h1>
+          <p class="abouttext">
+            I enjoy the process of transforming ideas into functional, engaging
+            websites and applications, whether it's through building interactive
+            user interfaces, developing complex back-end systems, or creating
+            browser extensions to enhance user experience.
+          </p>
+        </div>
+        <div class="right-part">
+          <h1 class="about-sub-heading head-text">Get to know me!</h1>
+          <p class="get-to-know">
+            I am a passionate Web Developer with a strong foundation in building
+            dynamic and responsive websites and web applications. My focus is on
+            creating seamless, user-friendly digital experiences by combining
+            both front-end and back-end technologies. With a keen interest in
+            programming and web technologies, I am constantly learning and
+            expanding my skill set to stay up-to-date with the latest industry
+            trends.
+          </p>
+        </div>
+        <div class="bottom-left">
+          <h1 class="">My Skills</h1>
+          <div class="skill">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JAVASCRIPT</p>
+            <p>REACT</p>
+          </div>
+          <div class="skill">
+            <p>RESPONSIVE DESIGN</p>
+            <p>GIT</p>
+            <p>GITHUB</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide3 block" id="project">
+        <h1 class="project-head">PROJECTS</h1>
+        <p class="project-text">
+          Below are some of the personal and client projects I've developed,
+          each with its own case study<br />
+          detailing the challenges, and results.
+        </p>
+        <div class="projects">
+          <div class="project-container">
+            <img src="Images/rockpaperscissor.jpg" />
+            <p>
+              A simple yet interactive web-based Rock Paper Scissors game built
+              using HTML, CSS, and JavaScript. The game allows users to play
+              against the computer by selecting one of the three options: Rock,
+              Paper, or Scissors. The result is determined by comparing the
+              choices, with visual feedback and scores updated in real-time.
+            </p>
+            <a
+              class="git-btn"
+              href="https://github.com/RohitGugadiya/RockPaperScissor-Game"
+              target="_blank"
+              ><img src="Images/github logo.webp"
+            /></a>
+          </div>
+
+          <div class="project-container">
+            <img src="Images/cart.jpg" />
+            <p>
+              A fully functional e-commerce website built with HTML, CSS, and
+              JavaScript. This site allows users to browse products, add items
+              to their shopping cart, and proceed to checkout. Key features
+              include product filtering, a dynamic shopping cart, and a simple
+              checkout process.
+            </p>
+            <a
+              class="git-btn"
+              href="https://github.com/RohitGugadiya/Ecomm"
+              target="_blank"
+              ><img src="Images/github logo.webp"
+            /></a>
+          </div>
+
+          <div class="project-container">
+            <img src="Images/todolist.avif" />
+            <p>
+              A simple yet effective To-Do List App built with HTML, CSS, and
+              JavaScript. The app allows users to easily add, edit, and delete
+              tasks, helping them stay organized. Features include task
+              prioritization, a clean and responsive design.
+            </p>
+            <a
+              class="git-btn"
+              href="https://github.com/RohitGugadiya/Todo-Lsit"
+              target="_blank"
+              ><img src="Images/github logo.webp"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide4" id="contact">
+        <h1 class="project-head">CONTACT</h1>
+        <p class="contact-text">
+          "Feel free to reach out by filling out the form below, and I will
+          respond as quickly as possible."
+        </p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <div class="contact-container">
+            <input
+              type="hidden"
+              name="access_key"
+              value="270e3409-3399-4b52-8dd4-a5b6515ee6b5"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact-input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact-input"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              class="contact-input"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
